@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.mother{
+  position:relative
+}
+.doughter{
+  position:absolute;
+  margin-top: -220px;
+  margin-left: 200px;
+  opacity: 0;
+  visibility: hidden;
+}
+.hi{
+  opacity: 1;
+  visibility: visible;
+}
