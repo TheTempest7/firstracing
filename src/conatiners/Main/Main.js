@@ -1,7 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import { Route, Routes, Link, Router } from 'react-router-dom';
-import App from '../App/App';
+import { Link } from 'react-router-dom';
 import './Main.scss';
 
 
