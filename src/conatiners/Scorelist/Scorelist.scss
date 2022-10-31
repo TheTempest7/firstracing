@@ -1,0 +1,190 @@
+.mother{
+    background-color: #A4CDEF;
+    border: 1px solid wheat;
+    width: 700px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.mother__caption{
+    margin: 25px auto;
+    font-family: 'KalamB';
+    font-size: 40px;
+    color: aliceblue;
+    -webkit-text-stroke:2px #C3563F;
+}
+
+.mother__list{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.mother__titles{
+    margin: 5px 0px;
+    background: linear-gradient(to right, aliceblue, #E5694F);
+    border: 1px solid wheat;
+    padding: 1px;
+    min-width: 300px;
+    margin: 0 auto;
+    .mother__first{
+        color:#C6D2DC ;
+    }
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+}
+.mother__item{
+    display: flex;
+    flex-direction: column;
+margin: 5px 0px;
+background: linear-gradient(to right, aliceblue, #E5694F);
+border: 1px solid wheat;
+padding: 1px;
+ border-radius:3px ;
+ -webkit-border-radius:3px ;
+ -moz-border-radius:3px ;
+ -ms-border-radius:3px ;
+ -o-border-radius:3px ;
+}
+.mother__internalCyst{
+    flex: 1 1 auto;
+    display: flex;
+align-items: center;
+    .mother__first{
+        flex: 0 0 10%;
+        display: flex;
+        background-color: #C6D2DC;
+        padding: 5px 10px;
+    }
+    .mother__second{
+        flex: 1 1  80%;
+        display: flex;
+        background-color: #C6D2DC;
+        padding: 5px 10px;
+        *{
+            flex: 1 1 auto;
+        }
+    }
+    .mother__third{
+        flex: 1 1 10%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #C6D2DC;
+        padding: 5px 10px;
+    }
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.mother__back{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 83px;
+    height: 23px;
+    font-family: 'KalamR';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,aliceblue , #E5694F);
+    border: 1px solid wheat;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    *{
+        width: 80px;
+        height: 20px;
+        background-color:#C3563F;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        padding: 6px 3px 3px 3px;
+    border: 1px solid wheat;
+    color: aliceblue;
+        border-radius:10px    ;
+    }
+}
+
+.mother__reload{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 123px;
+    height: 23px;
+    font-family: 'KalamR';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,aliceblue , #E5694F);
+    border: 1px solid wheat;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    *{
+        width: 120px;
+        height: 20px;
+        background-color:#C3563F;
+        display:flex;
+        white-space: nowrap;
+        justify-content:center;
+        align-items: center;
+        padding: 6px 3px 3px 3px;
+        border: 1px solid wheat;
+        color: aliceblue;
+        border-radius:10px    ;
+        -webkit-border-radius:10px    ;
+        -moz-border-radius:10px    ;
+        -ms-border-radius:10px    ;
+        -o-border-radius:10px    ;
+}
+}
+
+
+table, th, td {
+    border:1px solid  wheat;
+    -webkit-text-stroke: 1px #C3563F;
+}
+table{
+    background: linear-gradient(to right,aliceblue , #E5694F);
+    width: 400px;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: 'KalamL';
+    font-size: 11px;
+    color: aliceblue;
+    -webkit-text-stroke:1px #C3563F;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+th{
+    background-color:#A4CDEF ;
+    padding-top: 2px;
+}
+td{
+    background-color:#A4CDEF ;
+    text-align: center;
+    padding-top: 2px;
+}

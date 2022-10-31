@@ -1,0 +1,116 @@
+.Namepage{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 700px;
+margin: 30px auto;
+position: relative;
+background-color: #A4CDEF;
+border: 1px solid wheat;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 25px 0px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
+.Namepage__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Namepage__main :not(:last-child){
+    margin-bottom: 25px;
+}
+
+.Namepage__caption{
+    margin-top: 50px;
+    font-family: 'KalamB';
+    font-size: 40px;
+    color: aliceblue;
+    -webkit-text-stroke: 2px #C3563F;
+}
+.Namepage__input{
+    border: 1px solid wheat;
+    background-color: #C6D2DC;
+    padding: 3px 5px;
+    border-radius: 11px;
+    font-family: 'KalamL';
+    font-size: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+}
+
+.Namepage__input::placeholder{
+    color: aliceblue;
+    text-align: center;
+            font-family: 'KalamL';
+        font-size: 11px;
+}
+.Namepage__next{
+    text-align: center;
+    width: 203px;
+    height: 53px;
+    font-family: 'KalamR';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,aliceblue , #E5694F);
+    border: 1px solid wheat;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    *
+{
+        width: 200px;
+        height: 50px;
+        background-color:#C3563F;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        padding: 3px;
+    border: 1px solid wheat;
+    color: aliceblue;
+        border-radius:10px    ;
+    }
+}
+
+.Namepage__back{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 83px;
+    height: 23px;
+    font-family: 'KalamR';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,aliceblue , #E5694F);
+    border: 1px solid wheat;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    *{
+        width: 80px;
+        height: 20px;
+        background-color:#C3563F;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        padding: 6px 3px 3px 3px;
+    border: 1px solid wheat;
+    color: aliceblue;
+        border-radius:10px    ;
+    }
+}
