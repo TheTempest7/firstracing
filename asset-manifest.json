@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TheTempest7.github.io/firstracing/static/css/main.e190d52d.css",
+    "main.js": "/TheTempest7.github.io/firstracing/static/js/main.3da38ac9.js",
+    "static/media/Kalam-Regular.woff2": "/TheTempest7.github.io/firstracing/static/media/Kalam-Regular.293827505792a830f703.woff2",
+    "static/media/Kalam-Bold.woff2": "/TheTempest7.github.io/firstracing/static/media/Kalam-Bold.c2a0b595aa9c6270848b.woff2",
+    "static/media/Kalam-Light.woff2": "/TheTempest7.github.io/firstracing/static/media/Kalam-Light.2f8f46857828b0f47e00.woff2",
+    "index.html": "/TheTempest7.github.io/firstracing/index.html",
+    "main.e190d52d.css.map": "/TheTempest7.github.io/firstracing/static/css/main.e190d52d.css.map",
+    "main.3da38ac9.js.map": "/TheTempest7.github.io/firstracing/static/js/main.3da38ac9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e190d52d.css",
+    "static/js/main.3da38ac9.js"
+  ]
+}
