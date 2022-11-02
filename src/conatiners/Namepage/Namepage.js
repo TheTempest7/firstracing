@@ -1,15 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import { Route, Routes, Link, Router } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Namepage.scss'
-
-
-import App from '../App/App';
-import { createBrowserHistory } from "history";
-let history = createBrowserHistory();
-
-
 
 function Namepage() {
     const [value, setValue] = useState();

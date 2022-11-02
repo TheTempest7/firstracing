@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Main from './conatiners/Main/Main';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { Route, Routes, Link, Router } from 'react-router-dom';
-import App from './conatiners/App/App';
+import { Route, Routes } from 'react-router-dom';
 import Namepage from './conatiners/Namepage/Namepage';
 import Trial from './components/Trial';
 import Scorelist from './conatiners/Scorelist/Scoreslist';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
